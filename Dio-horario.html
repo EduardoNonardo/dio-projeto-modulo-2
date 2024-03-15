@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+<style>
+table tr:nth-child(even)
+{
+    background-color: #f1f1f1;
+}
+
+
+th{
+    background-color: lightblue;
+}
+
+table tbody tr:hover td{
+    background-color: #ea1818;
+    cursor: pointer;
+}
+:hover
+a{
+    background-color: rgb(245, 245, 245); 
+    padding-right: 55%;
+        
+}
+
+h1{
+    text-align: center; 
+    color: white;
+    padding: 2%;
+    font-size: 55px;
+    
+}
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.wrapper {
+    width: 1600px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 95%;
+}
+.menu {
+    width: 5%;
+    background-color: rgb(227, 155, 92);
+    padding: 150px 20px 0px;
+}
+.header {
+    background-color: rgb(88, 232, 232);
+    min-height: 150px;
+    background-image: none;
+    
+}
+.content {
+    background-color: white;
+    min-height: 400px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(45, 12, 155);
+    min-height: 140px;
+    color: white;
+}
+
+</style>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <br>
+            <br>
+            <ul>
+                <li><a href="index_dio_clinica.html" alt="página principal">Home</a></li><br>
+                <li><a href="Dio-sobre.html" alt="sobre a clínica">Sobre</a></li><br>
+                <li><a href="Dio-horario.html" alt="horário de atendimento">Horários</a></li><br>
+                <li><a href="Dio-contato.html" alt="contato">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="pepe3.png" width="600px" height="200px" >
+               
+             <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+             <!-- Aqui vai o seu conteúdo -->
+
+             <h3>Aqui estão algumas das especialidades que temos disponíveis:</h3>
+                <ol>
+                <li>
+                    Acupuntura: Nossos especialistas em acupuntura aplicam essa antiga técnica chinesa para promover o equilíbrio energético e aliviar dores e desconfortos.
+                </li>
+                <li>
+                Alergia e Imunologia: Trabalhamos com pacientes que sofrem de alergias e distúrbios imunológicos, oferecendo diagnóstico preciso e tratamento eficaz.
+                </li>
+                <li>
+                Anestesiologia: Nossos anestesiologistas garantem que os pacientes estejam confortáveis e seguros durante procedimentos cirúrgicos.
+                </li>
+                <li>
+                Angiologia: Especialistas em doenças vasculares, como varizes e trombose, estão à disposição para avaliação e tratamento.
+                </li>
+                <li>
+                Cardiologia: Cuidamos do seu coração, oferecendo diagnóstico e tratamento para doenças cardíacas.
+                </li>
+                <li>
+                Cirurgia Cardiovascular: Nossos cirurgiões cardiovasculares realizam procedimentos para tratar doenças do coração e dos vasos sanguíneos.
+                </li>
+                <li>
+                Cirurgia da Mão: Especialistas em cirurgia da mão tratam lesões e condições que afetam essa parte essencial do corpo.
+                </li>
+                <li>
+                Cirurgia de Cabeça e Pescoço: Avaliamos e tratamos doenças da cabeça, pescoço e região oral.
+                </li>
+                <li>
+                Cirurgia do Aparelho Digestivo: Nossos cirurgiões gastrointestinais realizam procedimentos para tratar doenças do sistema digestivo.
+                </li>
+                <li>
+                Cirurgia Geral: Oferecemos cirurgia geral para uma variedade de condições, desde apendicite até hérnias.
+                </li>
+                <li>
+                Cirurgia Oncológica: Especialistas em câncer realizam cirurgias para remover tumores malignos.
+                </li>
+                </ol>
+               
+             <table  widht="50" align="center" cellpadding="6" cellspacing="1" sumary="tabela de horários médicos da clínica ozama pepê">
+                <caption><b>Tabela de horários</b></caption>
+                <thead>
+                <tr> 
+                    <th>
+                        
+                    </th>
+                    <th>
+                        Segunda
+                    </th>
+                    <th>
+                        Terça
+                    </th>
+                    <th>
+                        Quarta
+                    </th>
+                    <th>
+                        Quinta
+                    </th>
+                    <th>
+                        Sexta
+                    </th>
+                    <th>
+                        Sabado
+                    </th>
+
+                </tr>
+                
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>Acupuntura</td>
+                    <td>08h-19h</td>
+                    <td>-</td>
+                    <td>08h-14h</td>
+                    <td>08h-14h</td>
+                    <td>08h-19h</td>
+                    <td>-</td>
+
+                </tr>
+                <tr>
+                    <td>Alergia e Imunologia</td>
+                    <td>-</td>
+                    <td>14h-20h</td>
+                    <td>08h-14h</td>
+                    <td>08h-14h</td>
+                    <td>-</td>
+                    <td>14h-20h</td>
+                </tr>
+                <tr>
+                    <td>Anestesiologia</td>
+                    <td>08h-14h</td>
+                    <td>08h-14h</td>
+                    <td>08h-19h</td>
+                    <td>08h-19h</td>
+                    <td>-</td>
+                    <td>14h-20h</td>
+                </tr>
+                <tr>
+                    <td>Angiologia</td>
+                    <td>08h-14h</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>08h-14h</td>
+                    <td>08h-14h</td>
+                </tr>
+                <tr>
+                    <td>Cardiologia</td>
+                    <td>14h-20h</td>
+                    <td>-</td>
+                    <td>14h-20h</td>
+                    <td>08h-14h</td>
+                    <td>08h-19h</td>
+                    <td>08h-19h</td>
+                </tr>
+                <tr>
+                    <td>Cirugia cardiovascular</td>
+                    <td>08h-14h</td>
+                    <td>08h-14h</td>
+                    <td>-</td>
+                    <td>08h-14h</td>
+                    <td>08h-14h</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Cirurgia de mão</td>
+                    <td>14h-20h</td>
+                    <td>14h-20h</td>
+                    <td>08h-14h</td>
+                    <td>-</td>
+                    <td>08h-14h</td>
+                    <td>08h-14h</td>
+                </tr>
+                <tr>
+                    <td>Cirurgia de cabeça e pescoço</td>
+                    <td>08h-19h</td>
+                    <td>-</td>
+                    <td>14h-20h</td>
+                    <td>14h-20h</td>
+                    <td>-</td>
+                    <td>08h-19h</td>
+                </tr>
+                <tr>
+                    <td>Cirurgia do aparelho digestivo</td>
+                    <td>08h-14h</td>
+                    <td>08h-19h</td>
+                    <td>08h-19h</td>
+                    <td>-</td>
+                    <td>08h-19h</td>
+                    <td>14h-20h</td>
+                </tr>
+                <tr>
+                    <td>Cirurgia Geral</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>08h-14h</td>
+                    <td>08h-19h</td>
+                    <td>-</td>
+                    <td>08h-14h</td>
+                </tr>
+                <tr>
+                    <td>Cirurgia Oncológica</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>08h-14h</td>
+                    <td>-</td>
+                    <td>14h-20h</td>
+                    <td>08h-14h</td>
+                </tr>
+                </tbody>
+    
+             </table>
+
+             <blockquote>
+                Lembre-se de que nossa equipe está comprometida em fornecer cuidados de qualidade e atenção personalizada a cada paciente. Agende sua consulta e descubra como a <i>Clínica Ozama Pepê</i> pode ajudar você a manter sua saúde em dia! 🌟🩺   
+                </blockquote>
+            </div>
+    
+            <div class="footer">
+                                <!-- Aqui vai o seu rodapé -->
+                <p>
+                    e-mail: contato@clitnicaozamapepe.com.br <br>
+                    fone  : (81) 9 3326-6952
+                
+                </p>                
+                <p>
+                    <center>desde, março de 2024<br>copyright Eduardo Nonardo</center>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

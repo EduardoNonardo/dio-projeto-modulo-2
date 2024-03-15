@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+<style>
+:hover
+a{
+    background-color: rgb(245, 245, 245); 
+    padding-right: 55%;
+        
+}
+
+h1{
+    text-align: center; 
+    color: white;
+    padding: 2%;
+    font-size: 55px;
+    
+}
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.wrapper {
+    width: 1600px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 95%;
+}
+.menu {
+    width: 5%;
+    background-color: rgb(227, 155, 92);
+    padding: 150px 20px 0px;
+}
+.header {
+    background-color: rgb(88, 232, 232);
+    min-height: 150px;
+    background-image: none;
+    
+}
+.content {
+    background-color: white;
+    min-height: 400px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(45, 12, 155);
+    min-height: 140px;
+    color: white;
+}
+
+</style>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <br>
+            <br>
+            <ul>
+                <li><a href="index_dio_clinica.html" alt="página principal">Home</a></li><br>
+                <li><a href="Dio-sobre.html" alt="sobre a clínica">Sobre</a></li><br>
+                <li><a href="Dio-horario.html" alt="horário de atendimento">Horários</a></li><br>
+                <li><a href="Dio-contato.html" alt="contato">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="pepe4.png" width="600px" height="200px" >
+               
+             <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+            <!-- Aqui vai o seu conteúdo -->
+            <form >
+                <fieldset>
+                    <legend>formulário para contato</legend>
+                    <label for="pname">Nome</label><br>
+                    <input type="text" id="pnome" name="pname"><br>
+                    <label for="lname">Sobrenome</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" id="email" name="e-mail"><br>
+                    <label for="assunto">Assunto</label><br>
+                    <input type="text" id="assunto" name="assunto"><br>
+                    <textarea name="message" cols="50" rows="10">Mensagem</textarea><br>
+                    <button type="submit">Enviar</button><button type="reset">Limpar</button>
+                </fieldset>
+
+            </form>
+            fone: (81) 9 3326-6952<br>
+            <span style="color: green;">whatsapp:</span> (81) 9 3386-6672<br>
+            rua: R. dos Coelhos, 300 - Boa Vista, Recife - PE, 50070-902<br><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15801.315851473813!2d-34.895080626010945!3d-8.067889832949351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1710364504217!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+    
+            <div class="footer">
+                                <!-- Aqui vai o seu rodapé -->
+                <p>
+                    e-mail: contato@clitnicaozamapepe.com.br <br>
+                    fone  : (81) 9 3326-6952
+                
+                </p>  
+                             
+                <p>
+                    <center>desde, março de 2024<br>copyright Eduardo Nonardo</center>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
